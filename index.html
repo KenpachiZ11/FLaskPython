@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectSystem</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <video src="./video/smoke2.mp4" autoplay muted class="video"></video>
+    <section class="sector">
+            <div class="sector__over">
+                <div class="sector__modalWindow" id="one">
+                    <div class="sector__header">
+                        Форма входа
+                    </div>
+                    <div class="sector__formBase">
+                
+                        <form action="" method="POST">
+                            <div class="sector__form">
+                                    <div class="sector__text">
+                                        <div class="sector__text2">
+                                            <label for="email">E-mail</label>
+                                        </div>
+                                        <input type="email" name="email" required class="w" placeholder="email@mail.ru"/>
+                                    </div>
+                                    <div class="sector__text">
+                                        <div class="sector__text2">
+                                            <label for="password">Password</label>
+                                        </div>
+                                        <input type="password" name="password" required class="w" placeholder="MyPassword"/>
+                                    </div>
+                
+                                <div class="btn__btn">
+                                    <button class="btn__click" type="submit" id="register">Register</button>
+                                    <div class="cube"></div>
+                                    <button class="btn__click" type="submit">Sign In</button>
+                                </div>
+                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="sector__modalWindowTwo" id="two">
+                    <div class="sector__header">
+                        Форма регистрации
+                    </div>
+                    <form action="" method="GET">
+                        <div class="sector__form">
+                                <div class="sector__text">
+                                    <div class="sector__text2">
+                                        <label for="email">E-mail</label>
+                                    </div>
+                                    <input type="email" name="email" required class="w" placeholder="email@mail.ru"/>
+                                </div>
+                                <div class="sector__text">
+                                    <div class="sector__text2">
+                                        <label for="password">Password</label>
+                                    </div>
+                                    <input type="password" name="password" required class="w" placeholder="MyPassword"/>
+                                </div>
+                                <div class="sector__text">
+                                    <div class="sector__text2">
+                                        <label for="password">Password</label>
+                                    </div>
+                                    <input type="password" name="password" required class="w" placeholder="MyPassword"/>
+                                </div>
+            
+                                <div class="btn">
+                                    <button class="btn__click" type="submit" id="back">Back</button>
+                                    <div class="cube"></div>
+                                    <button class="btn__click" type="submit">Register</button>
+                                </div>
+            
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+    </section>
+</body>
+<script src="./main.js"></script>
+</html>
